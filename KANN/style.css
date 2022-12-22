@@ -1,0 +1,254 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+.source {
+    text-decoration: double;
+    font-style: italic;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    scroll-snap-type: y proximity;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+
+a:hover{
+    text-decoration: underline;
+}
+
+.page-main {
+    height: 100%;
+    padding: 20px;
+    background-image: url("image/background.png");
+    background-size: cover;
+    scroll-snap-align: start;
+}
+
+.page-not-main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 115px;
+    margin: 16px;
+    scroll-snap-align: end;
+}
+
+.page-not-main-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 115px;
+    margin: 16px;
+    scroll-snap-align: end;
+}
+
+.page-not-main-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 115px;
+    margin: 16px;
+    scroll-snap-align: start;
+}
+
+.logo{
+    display: flex;
+    align-items: flex-start;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right-image {
+    height: 100%;
+}
+
+.central-inscription {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-navbar {
+    margin-left: 20px;
+}
+
+.left-navbar > a {
+    padding-right: 15px;
+}
+
+.content {
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-menu{
+    display: flex;
+    font-size: 15px;
+    
+}
+
+.right-menu {
+    display: flex;
+    justify-content: flex-end;
+    width: 35%;
+    font-size: 15px;
+}
+
+.language-selector {
+    word-spacing: 5px;
+}
+
+.right-menu > a{
+    font-size: 15px;
+    margin-left: 16px;
+}
+
+.enabled-language {
+    font-weight: 700;
+}
+
+.main-logo {
+    font-size: 57px;
+    font-weight: 700;
+}
+
+.inscription-shop {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.inscription-article {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.right-content {
+    height: 100%;
+    width: min-content;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.right-content-inscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-center-inscription {
+    font-size: 60px;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 60px;
+}
+
+.Rectangle-7 {
+    height: 100%;
+}
+
+.left-content-1 {
+    height: 100%;
+    width: min-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.page-with-the-list {
+    display: flex;
+    padding-top: 115px;
+    margin-left: 15%;
+    scroll-snap-align: end;
+}
+
+.list-1 {
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.footer-1-1 {
+    display: flex;
+    margin-left: 18px;
+    padding-top: 115px;
+    scroll-snap-align: center;
+}
+
+.footer-1-2 {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 18px
+}
+
+.footer-1-inscription {
+    font-size: 45px;
+    line-height: 47px;
+}
+
+.main-footer {
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    margin: 18px;
+}
+
+.main-footer-block{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    width: 100%;
+}
+
+.main-footer-block-up{
+    margin-bottom: 18px;
+}
+
+.main-footer-block-inside-inscription{
+    line-height: 15px;
+}
+
+hr {
+    margin-top: 100px;
+    margin-bottom: 75px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.down-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 18px;
+    margin-left: 18px;
+    padding-top: 115px;
+    padding-bottom: 18px;
+    color: #B3B3B3;
+    scroll-snap-align: end;
+}
+
+.left-down-footer {
+    display: flex;
+}
+
+.left-down-footer-inscription-1 {
+    padding-right: 21px;
+}
+
